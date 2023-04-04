@@ -1,0 +1,148 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;1,300;1,700&display=swap');
+
+*{
+    transition: .5s ease-out;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif  ;
+
+    
+ }
+ body{
+    background-color: #ddd ;
+    margin-bottom: 3em;
+ }
+nav{
+    z-index: 999;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    gap: 3rem;
+    background-color: black;
+    justify-content: space-between;
+    padding: 1em 1.5em;
+    flex-direction: row;
+   
+   
+}
+.sec1 , .sec2{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+}
+
+nav a { 
+    border-radius:  2px; 
+    flex-shrink: 1;
+    background-color:#000000 ;
+    text-decoration: none;
+    color:rgb(183, 183, 183);
+    padding: 0.2em 0.25em;
+    border: 1px white solid; 
+    border-radius: 5px;
+    
+}
+nav a:hover { 
+    border-radius:  5px; 
+    background-color:rgb(183, 183, 183) ;
+    color:#000000;
+    padding: 0.2em 0.35em;
+    
+}
+section{
+    
+        display: flex;
+        flex-direction: row;
+}
+img{
+    height: 839px;
+    width: 1547px;
+}
+a p{  
+    font-family: 'Cantora One', sans-serif;
+                                             
+    color: white;
+    text-decoration:none ;
+    position: absolute;
+    margin: 10em auto; 
+    z-index: 998;
+    margin-left: 16px;
+    border: 2px white solid;
+    border-radius: 4px;
+    padding: 1em 2em;
+    font-weight: bold;
+}
+a p:hover{
+    border: 2px white solid;
+    border-radius: 4px;
+    padding: 1em 3em ;
+    color: white;
+
+}
+
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    gap: 1em;
+    justify-content: center;
+
+}
+h1{
+    font-family: "Times New Roman", Times, serif; 
+}
+
+h1:hover{
+   font-size: 35px;
+   cursor: pointer;
+   
+}
+
+div p{
+    margin:5px 80px;
+    padding: 20px 40px;
+    font-family:Helvetica;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 1.5em;
+}
+
+#f1 h1:hover {
+     text-decoration:underline ;
+}
+
+
+#f1{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    width: 1508px;
+    
+}
+
+#f1 section img{
+    width: 400px;
+    height: 400px;   
+}
+
+#f1 section {
+    display:flex ;
+    gap: 1em;
+    
+}
+
+#f1 section img:hover{
+    transform: scale(1.1);  
+    transform-origin: center;
+}
+
+
+
+
+

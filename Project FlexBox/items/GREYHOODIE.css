@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;1,300;1,700&display=swap');
+body {
+    background-color: #ddd;
+}
+*{
+    transition: 0.5s ease-out;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'Montserrat', sans-serif ;
+    
+    }
+    nav{
+        z-index: 999;
+        display: flex;
+        
+        width: 100%;
+        gap: 3rem;
+        background-color: black;
+        justify-content: space-between;
+        padding: 1em 1.5em;
+        flex-direction: row;
+        margin-top: 0;
+        
+       
+       
+    }
+    .sec1 , .sec2{
+    
+        display: flex;
+        flex-direction: row;
+        margin-top: 0.5em;
+    }
+    
+    nav a { 
+        border-radius:  2px; 
+        flex-shrink: 1;
+        background-color:#000000 ;
+        text-decoration: none;
+        color:rgb(183, 183, 183);
+        padding: 0.2em 0.25em;
+        border: 1px white solid; 
+        border-radius: 5px;
+        margin-left: 0.5em;
+        
+    }
+    nav a:hover { 
+        border-radius:  5px; 
+        background-color:rgb(183, 183, 183) ;
+        color:#000000;
+        padding: 0.2em 0.35em;
+        
+    }
+
+main{
+    margin-top: 1em;
+    margin-left: 0.1em;
+    display: flex;
+    gap: 4em;
+    
+    height: 650px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#sec1 , #sec2{
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 1em;
+}
+
+#sec1{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    margin-left: 74px;
+    margin-top: 47px;
+    height:500px ;
+    width: 500px;
+}
+img:hover  {
+    padding: 1em;
+}
+img:hover  + #sec1{
+    border: 3px solid #F9C1BD;
+}
+#sec1 h1{
+    margin-left: 74px; 
+}
+
+#sec2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    
+}
+
+
+
+#sec2 .purchase , .description{
+
+    border: 0.2px solid black;
+    border-radius: 15px;
+    padding: 1em;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    padding: 2em;
+    font-size: 20px;
+    align-items: center;
+}   
+
+.description p {
+    margin-top: 2em;
+}
+
+.purchase{
+    height: 30%;
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+}
+
+#Tailles{ 
+    
+    margin-top: 5em;
+    display: flex;
+    gap: 3em;
+    justify-content: space-evenly;
+}
+
+#Tailles a{
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    
+}
+
+#Tailles a:focus{
+    font-size: large;
+    text-decoration: underline;
+    color: black;
+    
+}
+
+
+.purchase button{
+    height: 2em;
+    margin-top: 6em ;
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+    color: black;
+    border-radius:  8px; 
+}
+
+.purchase button:hover{
+    border-radius:  8px; 
+        background-color:black ;
+        color:#DDDDDD ;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+    
+ background-color: #333;
+  height: 250px;
+}
+
+
+
+footer .cmnt, .socials{
+    margin: 1em;
+    color: #ddd;
+    
+
+}
+
+
+footer .cmnt{
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+    width: 70%;
+    
+}
+
+footer .socials{
+    width: 30%;
+    gap: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cmnt div{
+    display: flex;
+   
+    flex-direction: column;
+    gap: 0.2em;
+}
+
+div button{
+    height: 2em;
+    margin-top: 1.25em ;
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+    border-radius:  8px; 
+    color: #ddd;
+}
+
+div button:hover{
+    border-radius:  8px; 
+        background-color:black ;
+        color:#DDDDDD ;
+
+}
+
+#socials{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+}
+
+
+#fb , #ig , #yt {
+    color: #ddd;
+}
+
+#fb:hover , #ig:hover , #yt:hover {
+    font-size: larger;
+}
+
+#fb:hover{
+    color: blue;
+} 
+#ig:hover{
+    color: violet;
+}
+#yt:hover{
+    color: red;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    
+}
+
+
+
+#comment{
+    height: 50px;
+}
+
+#nom , #prenom{
+    width: 200px;
+}
+
+input:hover{
+    background-color: #F9C1BD;
+    border: none;
+    border-radius: 5px;
+    
+}

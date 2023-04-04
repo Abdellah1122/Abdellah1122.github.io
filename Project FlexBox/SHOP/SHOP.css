@@ -1,0 +1,289 @@
+
+body {
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.5s ease-out;
+    font-family:  'Montserrat', sans-serif ;
+}
+
+    nav{
+        z-index: 999;
+        display: flex;
+        
+        width: 100%;
+        gap: 3rem;
+        background-color: black;
+        justify-content: space-between;
+        padding: 1em 1.5em;
+        flex-direction: row;
+        margin-top: 0;
+        
+       
+       
+    }
+    .sec1 , .sec2{
+    
+        display: flex;
+        flex-direction: row;
+        margin-top: 0.5em;
+    }
+    
+    nav a { 
+        border-radius:  2px; 
+        flex-shrink: 1;
+        background-color:#000000 ;
+        text-decoration: none;
+        color:rgb(183, 183, 183);
+        padding: 0.2em 0.25em;
+        border: 1px white solid; 
+        border-radius: 5px;
+        margin-left: 0.5em;
+        
+    }
+    nav a:hover { 
+        border-radius:  5px; 
+        background-color:rgb(183, 183, 183) ;
+        color:#000000;
+        padding: 0.2em 0.35em;
+        
+    }
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+    
+ background-color: #333;
+  height: 250px;
+}
+
+
+
+footer .cmnt, .socials{
+    margin: 1em;
+    color: #ddd;
+    
+
+}
+
+
+footer .cmnt{
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+    width: 70%;
+    
+}
+
+footer .socials{
+    width: 30%;
+    gap: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cmnt div{
+    display: flex;
+   
+    flex-direction: column;
+    gap: 0.2em;
+}
+
+div button{
+    height: 2em;
+    margin-top: 1.25em ;
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+    border-radius:  8px; 
+    color: #ddd;
+}
+
+div button:hover{
+    border-radius:  8px; 
+        background-color:black ;
+        color:#DDDDDD ;
+
+}
+
+#socials{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+}
+
+
+#fb , #ig , #yt {
+    color: #ddd;
+}
+
+#fb:hover , #ig:hover , #yt:hover {
+    font-size: larger;
+}
+
+#fb:hover{
+    color: blue;
+} 
+#ig:hover{
+    color: violet;
+}
+#yt:hover{
+    color: red;
+}
+
+footer input{
+    border: none;
+    border-radius: 5px;
+    
+}
+
+
+
+#comment{
+    height: 50px;
+}
+
+#nom , #prenom{
+    width: 200px;
+}
+
+input:hover{
+    background-color: #F9C1BD;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+
+main{
+    display: flex;
+    gap: 2px;
+    margin: 2px;
+    
+    height: 1750px;
+}
+
+aside{
+    border: 1px black solid;
+    width: 15%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-left: 1em;
+    border-radius: 10px;
+    margin: 2em;
+}
+
+h2{
+    margin-top: 2em;
+}
+
+.choix{
+    margin-top: 2EM;
+    padding-left: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2EM;
+}
+
+
+section{
+    margin-left: 2em;
+    margin-top: 3em;
+    display: flex;
+    gap: 5em;
+    flex-direction: column;
+}
+
+#SUMMER{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+img{
+    height: 240px;
+    width: 240px;
+}
+.su1 ,.su2,.su3{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+
+.containerSUMMER{
+    width: 100%;
+    display: flex;
+    gap: 13em;
+}
+
+#SPRING{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+.containerSPRING{
+    width: 100%;
+    display: flex;
+    gap: 13em;
+}
+.sp1 ,.sp2,.sp3{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+#WINTER{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.containerWINTER{
+    width: 100%;
+    display: flex;
+    gap: 13em;
+}
+.W1 ,.W2,.W3{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+#FALL{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.containerFALL{
+    width: 100%;
+    display: flex;
+    gap: 13em;
+}
+.F1 ,.F2,.F3{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+
+ img:hover{
+    transform: scale(1.1);  
+    transform-origin: center;
+}
