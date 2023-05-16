@@ -24,6 +24,8 @@ nav{
    
    
 }
+
+
 .sec1 , .sec2{
 
     display: flex;
@@ -198,7 +200,7 @@ main input{
     border-radius: 15px;
  }
 
- button a{
+ button {
     color: black;
     text-decoration: none;
  }
